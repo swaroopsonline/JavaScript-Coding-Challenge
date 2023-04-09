@@ -30,4 +30,5 @@ while(j<Array1.length){
 }
 
 console.log("Array2 output using a while loop is "+Array2)
+console.log(Array2)
 
