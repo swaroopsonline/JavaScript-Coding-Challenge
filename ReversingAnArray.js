@@ -19,14 +19,11 @@ let Array2 = []
 
 console.log("----------------------------")
 
-while(j<Array1.length){
+while(j>=0){
 
     Array2.push(Array1[j])
     j = j - 1
-
-    if(j<0){
-        break
-    }
+       
 }
 
 console.log("Array2 output using a while loop is "+Array2)
