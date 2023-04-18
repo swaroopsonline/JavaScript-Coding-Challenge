@@ -1,3 +1,6 @@
+/*This code aims to find the End-Integers pertaining to the given Sum and the relevant Sub-Array*/
+/*-------------------------------Dated: 18th April 2023-----------------------------------------*/
+
 function do_the_sub_array_operation(end_integer_array){
     // console.log(end_integer_array)
     // console.log(arr1_duplicate)
