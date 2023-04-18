@@ -1,7 +1,30 @@
-function do_the_sub_array_operation(empty_list){
-    console.log(empty_list)
-    console.log(arr1_duplicate)
+function do_the_sub_array_operation(end_integer_array){
+    // console.log(end_integer_array)
+    // console.log(arr1_duplicate)
 
+    new_empty_list = []
+
+    for(i=0;i<end_integer_array.length;i++){
+        for(j=0;j<arr1_duplicate.length;j++){
+            if(end_integer_array[i]==arr1_duplicate[j]){
+                new_empty_list.push(j)
+            }
+        }
+    }
+    // console.log(new_empty_list)
+
+    x = new_empty_list[0]
+    y = new_empty_list[1]
+   
+    sub_array = []
+    k = x
+   
+   while(k<y+1){
+    sub_array.push(arr1_duplicate[k])
+    k = k + 1
+   }
+    console.log("And the Sum could be derived by adding the integers from the Sub_array", sub_array)
+    console.log("----------------------------------Good Job!------------------------------------")
 }
 
 
@@ -21,8 +44,7 @@ function check_for_summation_equality(array_s){
         summation = array_s[i] + array_s[j]
         if(summation == S){
             empty_list.push(array_s[j])
-            console.log("Following are the end integers of the Sub-array from left & right",empty_list)
-            console.log("----------------------------------Good Job!------------------------------------")
+            console.log("Following are the end integers of the Sub-array from left & right",empty_list)            
             
             do_the_sub_array_operation(empty_list)
             
