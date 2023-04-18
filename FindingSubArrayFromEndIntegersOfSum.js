@@ -70,8 +70,13 @@ function slicing_operation(array_length){
         array_x = array1.slice(k)
         k = k + 1
         array_length = array_length - 1
+
+        if(array_length<2){
+            throw new Error("The Sum could not be deduced from the given Array of elements")
+        }
+
         check_for_summation_equality(array_x)
-        console.log("array_x is ",array_x)       
+        // console.log("array_x is ",array_x)       
     }
 
 
