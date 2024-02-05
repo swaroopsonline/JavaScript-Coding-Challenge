@@ -14,8 +14,8 @@ console.log("------------------")
 let b = 20
 console.log(b)
 
-let b = "Harry"
-console.log(b)
+// let b = "Harry"
+// console.log(b)
 
 console.log("------------------")
 
